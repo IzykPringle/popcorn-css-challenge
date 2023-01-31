@@ -11,6 +11,9 @@ header {
 button {
     color: white;
     background-color: #805215;
+    float:left;
+    display:inline;
+    width: 100%;
 }
 
 h1 {
@@ -21,3 +24,19 @@ body {
 background-color: #D4A76A;
 }
 
+section {
+    background-color: white;
+    float:left;
+    display:inline;
+    width: 33%;
+    box-shadow: 0px 0px 15px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+}
