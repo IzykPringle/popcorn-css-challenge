@@ -26,10 +26,11 @@ background-color: #D4A76A;
 
 section {
     background-color: white;
-    float:left;
-    display:inline;
-    width: 33%;
+    float: top;
+    display: inline-flex;
     box-shadow: 0px 0px 15px black;
+    margin: 20px;
+    
 }
 
 h2 {
