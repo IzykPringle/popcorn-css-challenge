@@ -4,20 +4,34 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     background-color: #FFDBAA;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: solid black;
+    padding: 15px;
+
 }
 
 button {
     color: white;
     background-color: #805215;
-    float:left;
-    display:inline;
-    width: 100%;
+    padding: 10px;
+    margin: 10px;
 }
 
 h1 {
     color: #553100;
+}
+
+main {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
 }
 
 body {
@@ -26,10 +40,12 @@ background-color: #D4A76A;
 
 section {
     background-color: white;
-    float: top;
-    display: inline-flex;
+    display: flex;
     box-shadow: 0px 0px 15px black;
     margin: 20px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 50px;
     
 }
 
@@ -40,4 +56,11 @@ h2 {
 footer {
     background-color: white;
     box-shadow: 0px 0px 15px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    margin: 15px;
 }
